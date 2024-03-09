@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.coverimg {
+    height: 300px;
+    width: 100%;
+}
+.card {
+    border: 1px solid gray;
+    width: 22%;
+    height: 250px;
+    padding: 4px;
+    box-shadow: 10px 20px 15px gray;
+    border-radius: 4px;
+    margin-left: 2%;
+    margin-top: 20px;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin: 10px 30px;
+}
+.card h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.card p {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
